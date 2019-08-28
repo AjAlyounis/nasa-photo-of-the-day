@@ -1,14 +1,24 @@
 import React from "react";
+// import axios from "axios";
+import ImageGrid from "./components/ImageGrid";
+import Nav from "./components/Nav";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import styled from "styled-components";
 import "./App.css";
 
+const StyledApp = styled.div`
+  text-align: center;
+  background-color: black;
+`;
 function App() {
   return (
-    <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
-    </div>
+    <StyledApp>
+      <Nav />
+      <Header />n
+      <ImageGrid />
+      <Footer />
+    </StyledApp>
   );
 }
 
