@@ -1,5 +1,4 @@
 import React from "react";
-// import axios from "axios";
 import ImageGrid from "./components/ImageGrid";
 import Nav from "./components/Nav";
 import Header from "./components/Header";

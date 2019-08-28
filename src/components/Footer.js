@@ -14,15 +14,12 @@ const StyledFooter = styled.footer`
     color: white;
   }
 `;
-const StyledText = styled.div`
-  color: red;
-`;
 
 function Footer() {
   return (
     <StyledFooter>
       <p>Astronomy Photo of the Day</p>
-      <StyledText>Hello World!</StyledText>
+
       <a href="https://github.com/AjAlyounis" target="_blank">
         @GCJ2
       </a>
